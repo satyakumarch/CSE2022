@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+ // //obj literal(inside):
+       
+ let student={
+            name:"Hania",
+            roll:19,
+            marks:50,
+            intro:function(){
+        console.log(student.name +",bearing roll No. ""
+       +student.roll+" has scored "+student.marks);
+            console.log(`${this.name} bearing roll No. ${this.roll} 
+                has scored ${this.marks}`);
+            }
+        }
+        console.log(student);
+        console.log(student.name);
+        console.log(student.roll);
+        console.log(student.marks);
+        student.intro();
+
+////Outside Literal:
+
+        // let student={}
+        //     student.name="Hania",
+        //     student.roll=19,
+        //     student.marks=50,
+        //     student.intro=function(){
+        //      //console.log(student.name +
+        //         // ",bearing roll No. "+
+        //         // student.roll+" has scored "+
+        //         // student.marks);
+                
+        //     console.log(`${this.name} bearing roll No. ${this.roll} 
+        //         has scored ${this.marks}`);
+            
+        // }
+        // console.log(student);
+        // console.log(student["name"]);
+        // console.log(student.roll);
+        // console.log(student.marks);
+        // student.intro();
+
+
+
+        // let student=new Object();
+        // student.name="Hania",
+        //     student.roll= 19,
+        //     student.marks= 50 
+        // console.log(student["name"]);
+        // console.log(student.roll);
+        // console.log(student.marks);
+
+////ob.create:
+
+// let stuprototype={}
+// let student=Object.create(stuprototype);
+// student.name="Hania",
+//             student.roll= 19,
+//             student.marks= 50 
+//         console.log(student["name"]);
+//         console.log(student.roll);
+//         console.log(student.marks);
+
+
+       // //constructor function:
+        //function stu(name, roll, marks)
+        // {
+        //     this.name=name;
+        //     this.roll=roll;
+        //     this.marks=marks;
+        // }
+        // let student=new stu("neha", 19, 50);
+        //   console.log(student.name);
+        // let student1= new stu("akash", 25, 39);
+        // console.log(student1.name);
+
+
+        ////Class :
+
+        // class stu{
+        //     constructor(name,roll,marks)
+        //     {
+        //         this.name=name;
+        //         this.roll=roll;
+        //      this.marks=marks;   
+        //     }
+        // }
+        //     let student=new stu("neha", 19, 50);
+        // console.log(student.name);
+
+////Factory funtion:
+
+// function stu(name, roll, marks)
+// {
+//     return{
+// name:name,
+// roll:roll,
+// marks:marks
+//     }
+// }
+// let student=stu("neha", 19, 50);
+// console.log(student.name);
+
+
+////Object.assign:
+
+// let student1={
+//     name:"Heena",
+//     roll:18,
+//     marks:34
+// }
+// let student2={intro:function(){
+//     console.log(`${this.name} bearing roll No. ${this.roll} 
+//                 has scored ${this.marks}`);
+// }
+// }
+// let student=Object.assign({},student1, student2);
+// console.log(student.name);
+// student.intro();
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

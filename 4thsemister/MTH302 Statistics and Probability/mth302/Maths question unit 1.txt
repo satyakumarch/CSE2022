@@ -1,0 +1,545 @@
+What is a random variable?
+a) A variable with a fixed value
+b) A variable that takes on random values
+c) A variable that is always positive
+d) A variable that is normally distributed
+Answer: b
+
+Discrete random variables can take on:
+a) Any real number
+b) Only integer values
+c) Only positive values
+d) Only negative values
+Answer: b
+
+Which of the following is an example of a continuous random variable?
+a) Number of students in a class
+b) Roll of a fair six-sided die
+c) Height of a person
+d) Number of cars in a parking lot
+Answer: c
+
+The probability mass function (PMF) of a discrete random variable gives:
+a) The probability of an event occurring
+b) The probability density
+c) The probability of each possible value of the random variable
+d) The cumulative probability
+Answer: c
+
+What is the range of a random variable?
+a) The set of all possible values it can take
+b) The average value of the random variable
+c) The standard deviation of the random variable
+d) The interval from -1 to 1
+Answer: a
+
+What is the cumulative distribution function (CDF) of a random variable?
+a) The same as the probability mass function (PMF)
+b) The probability density function (PDF)
+c) The probability of the random variable taking on a value less than or equal to a specific value
+d) The variance of the random variable
+Answer: c
+
+A binomial distribution is characterized by which of the following parameters?
+a) Mean and variance
+b) Standard deviation and mode
+c) Probability of success and number of trials
+d) Skewness and kurtosis
+Answer: c
+
+In a binomial distribution, if the number of trials (n) increases while keeping the probability of success (p) constant, what happens to the shape of the distribution?
+a) It becomes narrower
+b) It becomes wider
+c) It remains unchanged
+d) It becomes symmetric
+Answer: a
+
+What is the mean of a Poisson distribution?
+a) Equal to the variance
+b) Equal to the standard deviation
+c) Equal to the rate parameter (λ)
+d) Always zero
+Answer: c
+
+Which probability distribution is often used to model the time between events in a Poisson process?
+a) Normal distribution
+b) Exponential distribution
+c) Geometric distribution
+d) Uniform distribution
+Answer: b
+
+What is the mean of a normal distribution?
+a) 0
+b) 1
+c) μ (mu)
+d) σ (sigma)
+Answer: c
+
+In a normal distribution, approximately what percentage of the data falls within one standard deviation of the mean?
+a) 25%
+b) 50%
+c) 68%
+d) 95%
+Answer: c
+
+Which of the following is true for the standard normal distribution?
+a) Mean (μ) is 1 and standard deviation (σ) is 0
+b) Mean (μ) is 0 and standard deviation (σ) is 1
+c) Mean (μ) is 0 and standard deviation (σ) is 0
+d) Mean (μ) is 1 and standard deviation (σ) is 1
+Answer: b
+
+The central limit theorem states that the sampling distribution of the sample mean approaches a normal distribution as:
+a) The sample size increases
+b) The sample size decreases
+c) The population size decreases
+d) The population mean decreases
+Answer: a
+
+What is the variance of a uniform distribution on the interval [a, b]?
+a) (b - a)^2
+b) (b - a)/2
+c) (b - a)/12
+d) (b - a)
+Answer: c
+
+What is the joint probability distribution of two random variables?
+a) The probability distribution of one of the random variables
+b) The product of the probability distributions of the two random variables
+c) The probability of both random variables taking on the same value
+d) The probability of both random variables taking on different values
+Answer: b
+
+If two random variables are independent, what is the covariance between them?
+a) Always positive
+b) Always negative
+c) Always zero
+d) Cannot be determined without additional information
+Answer: c
+
+What does Chebyshev's theorem state?
+a) It provides a formula for calculating the mean of a random variable.
+b) It provides a formula for calculating the variance of a random variable.
+c) It provides an upper bound on the probability that a random variable deviates from its mean by a certain amount.
+d) It provides a method for finding the median of a random variable.
+Answer: c
+
+Which of the following is not a property of a probability distribution?
+a) The sum of probabilities must equal 1.
+b) The mean and variance are always equal.
+c) Each individual probability is between 0 and 1.
+d) The probabilities are mutually exclusive.
+Answer: b
+
+What is the variance of a binomial distribution?
+a) np
+b) nq
+c) npq
+d) √npq
+Answer: c
+
+Which distribution is used to model the number of successes in a fixed number of Bernoulli trials?
+a) Exponential distribution
+b) Poisson distribution
+c) Binomial distribution
+d) Normal distribution
+Answer: c
+
+What is the probability that a normally distributed random variable is more than two standard deviations below the mean?
+a) Approximately 2.5%
+b) Approximately 5%
+c) Approximately 15.87%
+d) Approximately 68%
+Answer: a
+
+What is the mode of a probability distribution?
+a) The value that occurs most frequently
+b) The average value
+c) The maximum value
+d) The minimum value
+Answer: a
+
+In a geometric distribution, what does the parameter p represent?
+a) The number of trials
+b) The probability of success on each trial
+c) The mean of the distribution
+d) The standard deviation of the distribution
+Answer: b
+
+Which probability distribution is used to model the time until the first success in a sequence of Bernoulli trials?
+a) Binomial distribution
+b) Exponential distribution
+c) Poisson distribution
+d) Normal distribution
+Answer: b
+
+What is the mean of a geometric distribution?
+a) 0
+b) 1
+c) 1/p
+d) p
+Answer: c
+
+The variance of a discrete random variable is a measure of:
+a) How spread out the values are
+b) The mean of the values
+c) The mode of the values
+d) The median of the values
+Answer: a
+
+What is the mean of a uniform distribution on the interval [a, b]?
+a) (a + b)/2
+b) (b - a)/2
+c) (a - b)/2
+d) (a * b)/2
+Answer: a
+
+Which probability distribution is used to model the number of trials needed to achieve a specified number of successes in a sequence of Bernoulli trials?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: d
+
+What is the median of a normal distribution?
+a) Equal to the mean
+b) Always zero
+c) Equal to the standard deviation
+d) Can be any real number
+Answer: a
+
+Which of the following is a continuous probability distribution?
+a) Poisson distribution
+b) Binomial distribution
+c) Exponential distribution
+d) Geometric distribution
+Answer: c
+
+What is the variance of a Poisson distribution?
+a) λ
+b) 2λ
+c) λ^2
+d) √λ
+Answer: a
+
+In a discrete probability distribution, what does the area under the probability mass function (PMF) curve represent?
+a) The mean of the distribution
+b) The variance of the distribution
+c) The probability of each individual value
+d) The cumulative probability
+Answer: c
+
+Which of the following is not a valid probability distribution?
+a) All probabilities are greater than 1.
+b) The sum of probabilities is less than 1.
+c) All probabilities are between 0 and 1.
+d) The sum of probabilities is equal to 1.
+Answer: a
+
+Which probability distribution is used to model the number of events occurring in a fixed interval of time or space?
+a) Exponential distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Normal distribution
+Answer: c
+
+What is the mean of an exponential distribution with rate parameter λ?
+a) 1/λ
+b) λ^2
+c) √λ
+d) λ/2
+Answer: a
+
+Which distribution has a bell-shaped curve and is often used to model natural phenomena?
+a) Binomial distribution
+b) Poisson distribution
+c) Exponential distribution
+d) Normal distribution
+Answer: d
+
+If two random variables are positively correlated, what can be said about their covariance?
+a) It is always positive
+b) It is always negative
+c) It can be positive or negative
+d) It is always zero
+Answer: c
+
+Which distribution is commonly used to model the time between arrivals in a Poisson process?
+a) Binomial distribution
+b) Exponential distribution
+c) Poisson distribution
+d) Geometric distribution
+Answer: b
+
+What is the mode of a uniform distribution on the interval [a, b]?
+a) (a + b)/2
+b) a
+c) b
+d) (b - a)/2
+Answer: d
+
+In a normal distribution, approximately what percentage of the data falls within two standard deviations of the mean?
+a) 25%
+b) 50%
+c) 68%
+d) 95%
+Answer: d
+
+Which of the following is not a parameter of a Poisson distribution?
+a) Mean (λ)
+b) Variance (λ)
+c) Rate parameter (λ)
+d) Standard deviation (√λ)
+Answer: b
+
+What is the mean of a binomial distribution with parameters n and p?
+a) n
+b) p
+c) np
+d) 1/p
+Answer: c
+
+Which probability distribution is used to model the number of trials needed to obtain the first success in a sequence of Bernoulli trials?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: a
+
+In a continuous probability distribution, what does the area under the probability density function (PDF) curve represent?
+a) The mean of the distribution
+b) The variance of the distribution
+c) The probability of each individual value
+d) The cumulative probability
+Answer: d
+
+Which of the following is not a valid probability density function (PDF)?
+a) f(x) = 2x for 0 ≤ x ≤ 1
+b) f(x) = -1 for -∞ < x < ∞
+c) f(x) = e^(-x) for x ≥ 0
+d) f(x) = 0 for x < 0 or x > 1
+Answer: b
+
+What is the variance of a uniform distribution on the interval [a, b]?
+a) (b - a)^2
+b) (b - a)/2
+c) (b - a)/12
+d) (b - a)^2/12
+Answer: d
+
+What is the relationship between the mean and median in a normal distribution?
+a) The mean is always greater than the median.
+b) The mean is always less than the median.
+c) The mean is equal to the median.
+d) There is no specific relationship between the mean and median in a normal distribution.
+Answer: c
+
+What is the probability that a normally distributed random variable is more than one standard deviation above the mean?
+a) Approximately 2.5%
+b) Approximately 5%
+c) Approximately 15.87%
+d) Approximately 68%
+Answer: c
+
+Which probability distribution is used to model the number of failures before the first success in a sequence of Bernoulli trials?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: d
+
+What is the median of a geometric distribution?
+a) 0
+b) 1
+c) 1/p
+d) p
+Answer: c
+
+The standard deviation of a probability distribution measures:
+a) How spread out the values are
+b) The mean of the values
+c) The mode of the values
+d) The median of the values
+Answer: a
+
+Which of the following is not a property of a continuous probability distribution?
+a) The sum of probabilities is equal to 1.
+b) The probability of any individual value is zero.
+c) The probability density can be greater than 1.
+d) The area under the PDF curve is equal to 1.
+Answer: c
+
+Which probability distribution is used to model the time until the next event in a Poisson process?
+a) Binomial distribution
+b) Exponential distribution
+c) Poisson distribution
+d) Normal distribution
+Answer: b
+
+What is the mode of an exponential distribution?
+a) 0
+b) 1
+c) 1/λ
+d) λ
+Answer: a
+
+In a Poisson distribution, what does the rate parameter λ represent?
+a) The number of trials
+b) The probability of success on each trial
+c) The mean of the distribution
+d) The standard deviation of the distribution
+Answer: c
+
+What is the mode of a Poisson distribution?
+a) 0
+b) 1
+c) λ
+d) λ^2
+Answer: b
+
+Which probability distribution is used to model the number of successes before the first failure in a sequence of Bernoulli trials?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: a
+
+In a geometric distribution, what is the probability of obtaining the first success on the first trial?
+a) 0
+b) 1
+c) 1/p
+d) p
+Answer: d
+
+What is the variance of a negative binomial distribution?
+a) r/p
+b) rp
+c) r(1-p)/p^2
+d) rp^2
+Answer: c
+
+Which distribution is used to model the number of trials needed to achieve a specified number of failures in a sequence of Bernoulli trials?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: d
+
+What is the mean of a negative binomial distribution with parameters r and p?
+a) r
+b) 1/p
+c) r/p
+d) 1/r
+Answer: c
+
+What is the mode of a negative binomial distribution with parameters r and p?
+a) r
+b) 1/p
+c) r/p
+d) 1/r
+Answer: a
+
+Which of the following statements is true about the mode of a probability distribution?
+a) The mode is always equal to the mean.
+b) The mode is always equal to the median.
+c) The mode may not exist or may be multiple.
+d) The mode is always zero.
+Answer: c
+
+What is the median of a binomial distribution with parameters n and p?
+a) n
+b) p
+c) np
+d) It cannot be determined without more information.
+Answer: d
+
+In a binomial distribution, if the probability of success (p) decreases while keeping the number of trials (n) constant, what happens to the shape of the distribution?
+a) It becomes narrower
+b) It becomes wider
+c) It remains unchanged
+d) It becomes symmetric
+Answer: b
+
+Which distribution is used to model the number of successes in a sequence of Bernoulli trials with a fixed number of trials (n) and a variable number of successes (k)?
+a) Exponential distribution
+b) Poisson distribution
+c) Binomial distribution
+d) Negative binomial distribution
+Answer: d
+
+What is the mode of a binomial distribution with parameters n and p?
+a) n
+b) p
+c) np
+d) It cannot be determined without more information.
+Answer: c
+
+Which probability distribution is used to model the number of trials needed to obtain a specified number of successes in a sequence of Bernoulli trials with a fixed number of trials (n)?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: d
+
+Which distribution is used to model the number of trials needed to achieve a specified number of successes in a sequence of Bernoulli trials with a fixed number of trials (n)?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: d
+
+What is the variance of a negative binomial distribution with parameters r and p?
+a) r/p
+b) 1/p
+c) r/p^2
+d) r(1-p)/p^2
+Answer: c
+
+What is the mode of a negative binomial distribution with parameters r and p?
+a) r
+b) 1/p
+c) r/p
+d) 1/r
+Answer: a
+
+Which of the following statements is true about the mode of a probability distribution?
+a) The mode is always equal to the mean.
+b) The mode is always equal to the median.
+c) The mode may not exist or may be multiple.
+d) The mode is always zero.
+Answer: c
+
+What is the median of a binomial distribution with parameters n and p?
+a) n
+b) p
+c) np
+d) It cannot be determined without more information.
+Answer: d
+
+In a binomial distribution, if the probability of success (p) decreases while keeping the number of trials (n) constant, what happens to the shape of the distribution?
+a) It becomes narrower
+b) It becomes wider
+c) It remains unchanged
+d) It becomes symmetric
+Answer: b
+
+Which distribution is used to model the number of successes in a sequence of Bernoulli trials with a fixed number of trials (n) and a variable number of successes (k)?
+a) Exponential distribution
+b) Poisson distribution
+c) Binomial distribution
+d) Negative binomial distribution
+Answer: d
+
+What is the mode of a binomial distribution with parameters n and p?
+a) n
+b) p
+c) np
+d) It cannot be determined without more information.
+Answer: c
+
+Which probability distribution is used to model the number of trials needed to obtain a specified number of successes in a sequence of Bernoulli trials with a fixed number of trials (n)?
+a) Geometric distribution
+b) Binomial distribution
+c) Poisson distribution
+d) Negative binomial distribution
+Answer: d
